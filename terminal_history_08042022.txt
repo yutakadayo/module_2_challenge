@@ -1,33 +1,3 @@
-  414  cd fintech_material/
-  415  ls
-  416  cd Module2/Class_2_Activities
-  417  ls
-  418  cd 03_Stu_Create_Github_Repository/
-  419  mkdir ATM_app_github
-  420  ls
-  421  cd ATM_app_github/
-  422  git clone https://github.com/yutakadayo/ATM_Application.git
-  423  git status
-  424  ls
-  425  cd ATM_Application/
-  426  git status
-  427  git add
-  428  git status
-  429  git add
-  430  git status
-  431  git commit -m"copied ATM application files into the folder"
-  432  git add README.md 
-  433  git status
-  434  git add atm/
-  435  git status
-  436  git push
-  437  ls
-  438  cd atm/
-  439  git status
-  440  git push
-  441  cd ..
-  442  git commit -m"added ATM files"
-  443  git status
   444  git push
   445  git status
   446  git status
@@ -40,11 +10,41 @@
   453  git status
   454  git commit -m"new.csv added"
   455  git push
-  456  source E:/Anaconda/Scripts/activate dev
-  457  cd e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge
-  458  E:/Anaconda/envs/dev/python.exe e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge/app.py
-  459  cd e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge
-  460  E:/Anaconda/envs/dev/python.exe e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge/app.py
-  461  cd e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge
-  462  E:/Anaconda/envs/dev/python.exe e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge/app.py
-  463  history 50 > terminal_history_08042022.txt
+  456  cd e:
+  457  ls
+  458  cd fintech_material/Module2
+  459  ls
+  460  cd module_2_challenge/
+  461  ls
+  462  cd loan_qualifier_app/
+  463  ls
+  464  git clone https://github.com/yutakadayo/module_2_challenge.git
+  465  git status
+  466  ls
+  467  git status
+  468  clear
+  469  ls
+  470  git clone https://github.com/yutakadayo/module_2_challenge.git
+  471  ls
+  472  cd module_2_challenge/
+  473  git status
+  474  git add .
+  475  git status
+  476  git commint -m "Uploaded starter code files"
+  477  git push
+  478  git commint -m "Uploaded starter code files"
+  479  git commit -m "Uploaded starter code files"
+  480  git status
+  481  git push
+  482  git status
+  483  git status
+  484  git add .
+  485  git status
+  486  git commit -m "Added codes to write updated csv under app.py"
+  487  git push
+  488  git status
+  489  git add .
+  490  git status
+  491  git commit -m "Modularized csv saving function by moving inside 'fileio.py' as 'save_csv'"
+  492  git push
+  493  history 50 > terminal_history_08042022.txt
