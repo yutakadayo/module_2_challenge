@@ -1,0 +1,50 @@
+  414  cd fintech_material/
+  415  ls
+  416  cd Module2/Class_2_Activities
+  417  ls
+  418  cd 03_Stu_Create_Github_Repository/
+  419  mkdir ATM_app_github
+  420  ls
+  421  cd ATM_app_github/
+  422  git clone https://github.com/yutakadayo/ATM_Application.git
+  423  git status
+  424  ls
+  425  cd ATM_Application/
+  426  git status
+  427  git add
+  428  git status
+  429  git add
+  430  git status
+  431  git commit -m"copied ATM application files into the folder"
+  432  git add README.md 
+  433  git status
+  434  git add atm/
+  435  git status
+  436  git push
+  437  ls
+  438  cd atm/
+  439  git status
+  440  git push
+  441  cd ..
+  442  git commit -m"added ATM files"
+  443  git status
+  444  git push
+  445  git status
+  446  git status
+  447  git add Images/
+  448  git status
+  449  git commit -m"Added Images file"
+  450  git push
+  451  git status
+  452  git add atm/data/new.csv
+  453  git status
+  454  git commit -m"new.csv added"
+  455  git push
+  456  source E:/Anaconda/Scripts/activate dev
+  457  cd e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge
+  458  E:/Anaconda/envs/dev/python.exe e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge/app.py
+  459  cd e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge
+  460  E:/Anaconda/envs/dev/python.exe e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge/app.py
+  461  cd e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge
+  462  E:/Anaconda/envs/dev/python.exe e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge/app.py
+  463  history 50 > terminal_history_08042022.txt
