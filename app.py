@@ -10,7 +10,6 @@ import sys
 import fire
 import questionary
 from pathlib import Path
-import csv
 
 from qualifier.utils.fileio import load_csv, save_csv
 
@@ -109,13 +108,19 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
+
+    # ask users for the options to save the new list
     answers = questionary.confirm("Do you want to save the list of qualifying loans?", default=True).ask()
+    
+    # use "save_csv" function to save the new csv file if the answer is True
     if answers:
         qualifying_loans_csv_path = questionary.text("Enter a file path to save the list (.csv):").ask()
         save_csv(qualifying_loans, qualifying_loans_csv_path)
-        print("The list of qualifying loans is now available.")
+        sys.exit("The list of qualifying loans is now available.")
+
+    # if the answer is False then exit the application without making list
     else:
-        print("Thank you for visiting us.")
+        sys.exit("Thank you for visiting us.")
     
 
 

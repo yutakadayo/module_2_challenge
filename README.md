@@ -1,33 +1,61 @@
-# Project Title
+# Loan Qualifier Functions
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This function will search through list of loans to match your needs and financial status.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+** Programming language **
+`python 3.7 or later`
+
+** libraries used in the functions **
+`csv` and `pathlib` to read and write loan data.
+`questionary` and `fire` to interact with the functions in CLI.
+`sys` to exit from the application.
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+- In your terminal, please install required libraries by tying following command.
+`pip install fire`
+`pip install questionary`
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+1. Download or clone the [app.py](app.py), [data](data/), and [qualifier](qualifier/) in a same directory.
+
+2. Use terminal to navigate the directory you saved all the data.
+
+3. Type `python app.py` in your terminal to run the functions
+   - If the system puts you `NoConsoleScreenBufferError`, then type `winpty python app.py`
+
+4. When the function asks you to enter a file path, type `data/daily_rate_sheet.csv`
+
+5. Enter your personal information as directed by the functions.
+
+6. You'll see results in printed messages, then the function will ask you to save list of qualifying loans
+
+7. If you wish to save new list, type `y` to continue
+   - Otherwise, type `n` to exit the functions
+
+8. Enter new file path to save the list of qualifying loans.
+   - For example: `data/qualifying_loans.csv`
+
+9. New list is saved in the directory you specified.
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Yu Takahashi
+Email: yu.taka.070202@outlook.com
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+Contact Yu Takahashi via the Email address above
