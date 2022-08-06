@@ -1,50 +1,50 @@
-  444  git push
-  445  git status
-  446  git status
-  447  git add Images/
-  448  git status
-  449  git commit -m"Added Images file"
-  450  git push
-  451  git status
-  452  git add atm/data/new.csv
-  453  git status
-  454  git commit -m"new.csv added"
-  455  git push
-  456  cd e:
-  457  ls
-  458  cd fintech_material/Module2
-  459  ls
-  460  cd module_2_challenge/
-  461  ls
-  462  cd loan_qualifier_app/
-  463  ls
-  464  git clone https://github.com/yutakadayo/module_2_challenge.git
-  465  git status
-  466  ls
-  467  git status
-  468  clear
-  469  ls
-  470  git clone https://github.com/yutakadayo/module_2_challenge.git
-  471  ls
-  472  cd module_2_challenge/
-  473  git status
-  474  git add .
-  475  git status
-  476  git commint -m "Uploaded starter code files"
-  477  git push
-  478  git commint -m "Uploaded starter code files"
-  479  git commit -m "Uploaded starter code files"
-  480  git status
-  481  git push
-  482  git status
-  483  git status
-  484  git add .
-  485  git status
-  486  git commit -m "Added codes to write updated csv under app.py"
-  487  git push
-  488  git status
-  489  git add .
-  490  git status
-  491  git commit -m "Modularized csv saving function by moving inside 'fileio.py' as 'save_csv'"
-  492  git push
-  493  history 50 > terminal_history_08042022.txt
+  458  git status
+  459  git status
+  460  git add .
+  461  git status
+  462  git commit -m "Added codes to write updated csv under app.py"
+  463  git push
+  464  git status
+  465  git add .
+  466  git status
+  467  git commit -m "Modularized csv saving function by moving inside 'fileio.py' as 'save_csv'"
+  468  git push
+  469  history 50 > terminal_history_08042022.txt
+  470  git status
+  471  git add .
+  472  git commit -m "saved command line history for 08/04/2022 just for my reminder"
+  473  git push
+  474  git status
+  475  git add .
+  476  git status
+  477  git commit -m "changed name of the file"
+  478  git push
+  479  cd e:
+  480  ls
+  481  cd fintech_material/Module2
+  482  ls
+  483  cd module_2_challenge
+  484  ls
+  485  cd loan_qualifier_app/
+  486  cd
+  487  ls
+  488  cd e:
+  489  clear
+  490  cd fintech_material/Module2/module_2_challenge/
+  491  ls
+  492  cd loan_qualifier_app/
+  493  ls
+  494  cd module_2_challenge/
+  495  ls
+  496  python app.py
+  497  winpy python app.py
+  498  wintpy python app.py
+  499  winpty python app.py
+  500  winpty python app.py
+  501  source E:/Anaconda/Scripts/activate dev
+  502  cd e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge
+  503  E:/Anaconda/envs/dev/python.exe e:/fintech_material/Module2/module_2_challenge/loan_qualifier_app/module_2_challenge/app.py
+  504  dule_2_challenge/app.py
+  505  python app.py
+  506  python app.py
+  507  history 50 > terminal_history.txt
