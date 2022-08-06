@@ -6,20 +6,26 @@ This function will search through list of loans to match your needs and financia
 
 ## Technologies
 
-** Programming language **
+**Programming language**
+
 `python 3.7 or later`
 
-** libraries used in the functions **
+**libraries used in the functions**
+
 `csv` and `pathlib` to read and write loan data.
+
 `questionary` and `fire` to interact with the functions in CLI.
+
 `sys` to exit from the application.
 
 ---
 
 ## Installation Guide
 
-- In your terminal, please install required libraries by tying following command.
+- Please install required libraries by tying following command in your terminal.
+
 `pip install fire`
+
 `pip install questionary`
 
 ---
