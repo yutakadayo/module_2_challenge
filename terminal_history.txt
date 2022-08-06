@@ -1,16 +1,3 @@
-  458  git status
-  459  git status
-  460  git add .
-  461  git status
-  462  git commit -m "Added codes to write updated csv under app.py"
-  463  git push
-  464  git status
-  465  git add .
-  466  git status
-  467  git commit -m "Modularized csv saving function by moving inside 'fileio.py' as 'save_csv'"
-  468  git push
-  469  history 50 > terminal_history_08042022.txt
-  470  git status
   471  git add .
   472  git commit -m "saved command line history for 08/04/2022 just for my reminder"
   473  git push
@@ -48,3 +35,16 @@
   505  python app.py
   506  python app.py
   507  history 50 > terminal_history.txt
+  508  git status
+  509  git add .
+  510  git status
+  511  git commit -"tested the functions before submit, and updated terminal_history.txt"
+  512  git commit -m" tested the application before submit, and updated 'terminal_history.txt'"
+  513  git push
+  514  git status
+  515  git add .
+  516  git status
+  517  git commit -m"fixed minor error in README file"
+  518  git push
+  519  history 50 > text.txt
+  520  history 50 > terminal_history.txt
