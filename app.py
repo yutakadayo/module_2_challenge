@@ -109,8 +109,14 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    save_csv(qualifying_loans)
-    print("List of qualifying loans are saved as 'qualifying_loans.csv'")
+    answers = questionary.confirm("Do you want to save the list of qualifying loans?", default=True).ask()
+    if answers:
+        qualifying_loans_csv_path = questionary.text("Enter a file path to save the list (.csv):").ask()
+        save_csv(qualifying_loans, qualifying_loans_csv_path)
+        print("The list of qualifying loans is now available.")
+    else:
+        print("Thank you for visiting us.")
+    
 
 
 def run():

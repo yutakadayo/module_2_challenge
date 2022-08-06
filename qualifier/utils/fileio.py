@@ -30,9 +30,9 @@ def load_csv(csvpath):
             data.append(row)
     return data
 
-def save_csv(qualifying_loans):
+def save_csv(qualifying_loans_list, csvpath):
         # Creating new file called "qualifying_loans.csv" in the data directory
-    qualifying_loans_csv_path = Path("data/qualifying_loans.csv")
+    qualifying_loans_csv_path = Path(csvpath)
 
     # Write same header as "daily_rate_sheet.csv"
     header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
@@ -48,5 +48,5 @@ def save_csv(qualifying_loans):
 
         # "qualifying_loans" is a list with multiple lists
         # Must use "for" loop to write each list independently
-        for each_loan_information in qualifying_loans:
+        for each_loan_information in qualifying_loans_list:
             csvwriter.writerow(each_loan_information)
